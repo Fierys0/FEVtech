@@ -1,0 +1,1248 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        1.0,
+        1.0,
+        1.0000001192092896
+      ],
+      "min": [
+        -1.000000238418579,
+        -1.0,
+        -1.0000004768371582
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1008,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        0.65625,
+        1.0
+      ],
+      "min": [
+        0.3437499701976776,
+        -7.450580596923828e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 240,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2016,
+      "componentType": 5126,
+      "count": 1295,
+      "max": [
+        0.7751285433769226,
+        0.9456446170806885,
+        0.7751284837722778
+      ],
+      "min": [
+        -0.7751283645629883,
+        0.9450036287307739,
+        -0.7751282453536987
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17556,
+      "componentType": 5126,
+      "count": 1295,
+      "max": [
+        0.4964681565761566,
+        1.0,
+        0.49648383259773254
+      ],
+      "min": [
+        -0.49651816487312317,
+        0.8680012822151184,
+        -0.49648189544677734
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 672,
+      "componentType": 5126,
+      "count": 1295,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 960,
+      "componentType": 5125,
+      "count": 6336,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 33096,
+      "componentType": 5126,
+      "count": 9527,
+      "max": [
+        1.5467662811279297,
+        0.9306127429008484,
+        2.5413901805877686
+      ],
+      "min": [
+        -1.8431209325790405,
+        0.31350454688072205,
+        -1.4217976331710815
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 147420,
+      "componentType": 5126,
+      "count": 9527,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 11032,
+      "componentType": 5126,
+      "count": 9527,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        -4.035862118947301e-15,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 26304,
+      "componentType": 5125,
+      "count": 45960,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 261744,
+      "componentType": 5126,
+      "count": 3578,
+      "max": [
+        0.7565997242927551,
+        1.1339036226272583,
+        1.3764373064041138
+      ],
+      "min": [
+        -0.9611698389053345,
+        1.1181448698043823,
+        -0.3502694368362427
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 304680,
+      "componentType": 5126,
+      "count": 3578,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 87248,
+      "componentType": 5126,
+      "count": 3578,
+      "max": [
+        0.65625,
+        1.0
+      ],
+      "min": [
+        0.0,
+        -7.450580596923828e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 210144,
+      "componentType": 5125,
+      "count": 17484,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 347616,
+      "componentType": 5126,
+      "count": 22572,
+      "max": [
+        0.65053391456604,
+        0.5272600650787354,
+        3.0679843425750732
+      ],
+      "min": [
+        -0.94688880443573,
+        -3.2127437591552734,
+        -1.9203596115112305
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 618480,
+      "componentType": 5126,
+      "count": 22572,
+      "max": [
+        1.0,
+        0.9999997019767761,
+        0.9995630383491516
+      ],
+      "min": [
+        -1.0,
+        -0.9999997019767761,
+        -0.9995630383491516
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 115872,
+      "componentType": 5126,
+      "count": 22572,
+      "max": [
+        1.0609712600708008,
+        1.0479261875152588
+      ],
+      "min": [
+        -0.14872264862060547,
+        -0.04792618751525879
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 296448,
+      "componentType": 5126,
+      "count": 22572,
+      "max": [
+        0.65625,
+        0.9923526048660278
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 280080,
+      "componentType": 5125,
+      "count": 47922,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 889344,
+      "componentType": 5126,
+      "count": 726,
+      "max": [
+        1.648693323135376,
+        1.0440878868103027,
+        0.6554497480392456
+      ],
+      "min": [
+        1.465052604675293,
+        0.8527810573577881,
+        0.4641428291797638
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 898056,
+      "componentType": 5126,
+      "count": 726,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 477024,
+      "componentType": 5126,
+      "count": 726,
+      "max": [
+        0.65625,
+        1.0
+      ],
+      "min": [
+        0.3437499701976776,
+        -7.450580596923828e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 471768,
+      "componentType": 5125,
+      "count": 1920,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 906768,
+      "componentType": 5126,
+      "count": 846,
+      "max": [
+        1.6486930847167969,
+        1.0440878868103027,
+        0.655449628829956
+      ],
+      "min": [
+        1.4833030700683594,
+        0.8527809381484985,
+        0.464142769575119
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 916920,
+      "componentType": 5126,
+      "count": 846,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 482832,
+      "componentType": 5126,
+      "count": 846,
+      "max": [
+        0.65625,
+        1.0
+      ],
+      "min": [
+        0.3437499701976776,
+        -7.450580596923828e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 479448,
+      "componentType": 5125,
+      "count": 2280,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 927072,
+      "componentType": 5126,
+      "count": 7070,
+      "max": [
+        0.9893519878387451,
+        1.0338408946990967,
+        0.9893518686294556
+      ],
+      "min": [
+        -0.9893518090248108,
+        0.8481298685073853,
+        -0.9893515110015869
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1011912,
+      "componentType": 5126,
+      "count": 7070,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 489600,
+      "componentType": 5126,
+      "count": 7070,
+      "max": [
+        0.65625,
+        1.0
+      ],
+      "min": [
+        0.3437500596046448,
+        8.940696716308594e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 488568,
+      "componentType": 5125,
+      "count": 40896,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1096752,
+      "componentType": 5126,
+      "count": 4296,
+      "max": [
+        1.0801737308502197,
+        0.9436072707176208,
+        1.7887474298477173
+      ],
+      "min": [
+        -1.3771218061447144,
+        0.9216734766960144,
+        -0.6691412925720215
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1148304,
+      "componentType": 5126,
+      "count": 4296,
+      "max": [
+        1.0,
+        0.9997554421424866,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 546160,
+      "componentType": 5126,
+      "count": 4296,
+      "max": [
+        0.875,
+        1.0
+      ],
+      "min": [
+        0.125,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 652152,
+      "componentType": 5125,
+      "count": 6912,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1199856,
+      "componentType": 5126,
+      "count": 726,
+      "max": [
+        1.6486934423446655,
+        1.0440878868103027,
+        0.6554495692253113
+      ],
+      "min": [
+        1.4566534757614136,
+        0.8527809977531433,
+        0.46414268016815186
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1208568,
+      "componentType": 5126,
+      "count": 726,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 580528,
+      "componentType": 5126,
+      "count": 726,
+      "max": [
+        0.65625,
+        1.0
+      ],
+      "min": [
+        0.3437499701976776,
+        -7.450580596923828e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 679800,
+      "componentType": 5125,
+      "count": 1920,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1217280,
+      "componentType": 5126,
+      "count": 355,
+      "max": [
+        1.0,
+        1.0,
+        0.998026967048645
+      ],
+      "min": [
+        -1.0000009536743164,
+        -1.0000038146972656,
+        -0.9980275630950928
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1221540,
+      "componentType": 5126,
+      "count": 355,
+      "max": [
+        1.0,
+        1.0,
+        0.9980267882347107
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9980267882347107
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 586336,
+      "componentType": 5126,
+      "count": 355,
+      "max": [
+        0.65625,
+        0.9996917247772217
+      ],
+      "min": [
+        0.3437499403953552,
+        0.0003082007169723511
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 687480,
+      "componentType": 5125,
+      "count": 1500,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "render-lab (https://sketchfab.com/render-lab)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/stainless-steel-wristwatch-analog-watch-029a0b692d474e55ac29292fc30fb153",
+      "title": "Stainless Steel Wristwatch Analog Watch"
+    },
+    "generator": "Sketchfab-16.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 693480,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 589176,
+      "byteOffset": 693480,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1225800,
+      "byteOffset": 1282656,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2508456,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular",
+    "KHR_materials_transmission"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.6019065962867696
+        }
+      },
+      "name": "lambert3",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5540790912347202,
+          0.5540790912347202,
+          0.5540790912347202,
+          1.0
+        ],
+        "roughnessFactor": 0.06552400921602808
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.5958113396155111
+        }
+      },
+      "name": "lambert4",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.430513,
+          0.5,
+          0.423,
+          1.0
+        ],
+        "metallicFactor": 0.03504772585973595,
+        "roughnessFactor": 0.13257183259987076
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 0.8247613707013203
+        }
+      },
+      "name": "blinn1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          0.25
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9207483816249483
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Watch_Crown2_lambert3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "WatchDialBase_lambert4_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "pPlane18_lambert3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "pPlane8_lambert3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube_44_lambert3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18,
+            "TEXCOORD_1": 19
+          },
+          "indices": 20,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "pCylinder4_lambert3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 22,
+            "POSITION": 21,
+            "TEXCOORD_0": 23
+          },
+          "indices": 24,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Watch_Crown_lambert3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 26,
+            "POSITION": 25,
+            "TEXCOORD_0": 27
+          },
+          "indices": 28,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "WatchDial_lambert3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 30,
+            "POSITION": 29,
+            "TEXCOORD_0": 31
+          },
+          "indices": 32,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "group2_pCube27_lambert3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 34,
+            "POSITION": 33,
+            "TEXCOORD_0": 35
+          },
+          "indices": 36,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Watch_Crown1_lambert3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 38,
+            "POSITION": 37,
+            "TEXCOORD_0": 39
+          },
+          "indices": 40,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Glass1_blinn1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 42,
+            "POSITION": 41,
+            "TEXCOORD_0": 43
+          },
+          "indices": 44,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "4a340a2adf15461d85379cc5c33f229b.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24
+      ],
+      "name": "Hand_watch"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.09997077286243439,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.01800636015832424,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.09997077286243439,
+        0.0,
+        -0.14817745983600616,
+        0.9338932037353516,
+        0.5597962737083435,
+        1.0
+      ],
+      "name": "Watch_Crown2"
+    },
+    {
+      "mesh": 0,
+      "name": "Watch_Crown2_lambert3_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1.6781346797943115,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.6781346797943115,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.6781346797943115,
+        0.0,
+        -0.14817747473716736,
+        -0.664171040058136,
+        0.5597963333129883,
+        1.0
+      ],
+      "name": "WatchDialBase"
+    },
+    {
+      "mesh": 1,
+      "name": "WatchDialBase_lambert4_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "name": "pPlane18"
+    },
+    {
+      "mesh": 2,
+      "name": "pPlane18_lambert3_0"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.1738082617521286,
+        0.0,
+        1.0
+      ],
+      "name": "pPlane8"
+    },
+    {
+      "mesh": 3,
+      "name": "pPlane8_lambert3_0"
+    },
+    {
+      "children": [
+        13
+      ],
+      "name": "Cube_44"
+    },
+    {
+      "mesh": 4,
+      "name": "Cube_44_lambert3_0"
+    },
+    {
+      "children": [
+        15
+      ],
+      "matrix": [
+        1.3141246330494576,
+        0.0,
+        -0.5309408157679826,
+        0.0,
+        0.0,
+        2.0464110374450684,
+        0.0,
+        0.0,
+        0.7665990674660194,
+        0.0,
+        1.8973992737263368,
+        0.0,
+        -0.997018575668335,
+        -1.272564172744751,
+        -0.3327901065349579,
+        1.0
+      ],
+      "name": "pCylinder4"
+    },
+    {
+      "mesh": 5,
+      "name": "pCylinder4_lambert3_0"
+    },
+    {
+      "children": [
+        17
+      ],
+      "matrix": [
+        1.8181370496749878,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.625117778778076,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.625117778778076,
+        0.0,
+        -1.2182471752166748,
+        -1.82142972946167,
+        -0.909734845161438,
+        1.0
+      ],
+      "name": "Watch_Crown"
+    },
+    {
+      "mesh": 6,
+      "name": "Watch_Crown_lambert3_0"
+    },
+    {
+      "children": [
+        19
+      ],
+      "matrix": [
+        1.6781346797943115,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.6781346797943115,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.6781346797943115,
+        0.0,
+        -0.14817747473716736,
+        -0.664171040058136,
+        0.5597963333129883,
+        1.0
+      ],
+      "name": "WatchDial"
+    },
+    {
+      "mesh": 7,
+      "name": "WatchDial_lambert3_0"
+    },
+    {
+      "children": [
+        21
+      ],
+      "name": "group2_pCube27"
+    },
+    {
+      "mesh": 8,
+      "name": "group2_pCube27_lambert3_0"
+    },
+    {
+      "children": [
+        23
+      ],
+      "matrix": [
+        1.0761597918018373,
+        0.0,
+        0.4791372092858409,
+        0.0,
+        0.0,
+        1.7008607387542725,
+        0.0,
+        0.0,
+        -0.6918023872203394,
+        0.0,
+        1.5538136019716036,
+        0.0,
+        0.17197899520397186,
+        -0.9448325037956238,
+        -0.33990293741226196,
+        1.0
+      ],
+      "name": "Watch_Crown1"
+    },
+    {
+      "mesh": 9,
+      "name": "Watch_Crown1_lambert3_0"
+    },
+    {
+      "children": [
+        25
+      ],
+      "matrix": [
+        1.4396300315856934,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.021669944748282433,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.4396300315856934,
+        0.0,
+        -0.14817745983600616,
+        1.0679999589920044,
+        0.5597962737083435,
+        1.0
+      ],
+      "name": "Glass1"
+    },
+    {
+      "mesh": 10,
+      "name": "Glass1_blinn1_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

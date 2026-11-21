@@ -102,10 +102,9 @@
 		aspect-ratio: 4 / 3;
 		border-radius: var(--surface-corner);
 		overflow: hidden;
-		background: #ffffff;
-		box-shadow:
-			0 2px 4px rgba(0, 0, 0, 0.03),
-			0 8px 32px -8px rgba(0, 0, 0, 0.08);
+		background: var(--color-card-bg);
+		border: 1px solid var(--color-hairline);
+		box-shadow: var(--color-card-shadow);
 	}
 
 	.feature-image {

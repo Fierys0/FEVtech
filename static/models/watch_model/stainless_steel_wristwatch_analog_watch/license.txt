@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stainless Steel Wristwatch Analog Watch
+* source:	https://sketchfab.com/3d-models/stainless-steel-wristwatch-analog-watch-029a0b692d474e55ac29292fc30fb153
+* author:	render-lab (https://sketchfab.com/render-lab)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stainless Steel Wristwatch Analog Watch" (https://sketchfab.com/3d-models/stainless-steel-wristwatch-analog-watch-029a0b692d474e55ac29292fc30fb153) by render-lab (https://sketchfab.com/render-lab) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

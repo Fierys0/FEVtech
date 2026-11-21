@@ -1,6 +1,13 @@
 <script>
 	import '../app.css';
+	import { onMount } from 'svelte';
+	import { initTheme } from '$lib/stores/theme.js';
+
 	let { children } = $props();
+
+	onMount(() => {
+		initTheme();
+	});
 </script>
 
 <svelte:head>
@@ -12,4 +19,3 @@
 </svelte:head>
 
 {@render children()}
-

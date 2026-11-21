@@ -93,15 +93,17 @@
 
 	/* ── Featured Quote ── */
 	.testimonial-featured {
-		background: var(--color-ground);
+		background: var(--color-surface);
+		border: 1px solid var(--color-hairline);
 		border-radius: var(--surface-corner);
 		padding: 3rem 3.5rem;
 		position: relative;
-		transition: box-shadow 0.4s ease;
+		box-shadow: var(--color-card-shadow);
+		transition: box-shadow 0.4s ease, border-color 0.3s ease;
 	}
 
 	.testimonial-featured:hover {
-		box-shadow: 0 12px 48px -12px rgba(0, 0, 0, 0.06);
+		box-shadow: var(--color-card-shadow-hover);
 	}
 
 	.quote-mark {
@@ -135,15 +137,17 @@
 	}
 
 	.testimonial-card {
-		background: var(--color-ground);
+		background: var(--color-surface);
+		border: 1px solid var(--color-hairline);
 		border-radius: var(--surface-corner);
 		padding: 2rem 2.25rem;
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		box-shadow: var(--color-card-shadow);
+		transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 	}
 
 	.testimonial-card:hover {
 		transform: translateY(-3px);
-		box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.06);
+		box-shadow: var(--color-card-shadow-hover);
 	}
 
 	.quote-text {

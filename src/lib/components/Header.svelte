@@ -1,8 +1,10 @@
 <script>
+	import ThemeToggle from './ThemeToggle.svelte';
+
 	let menuOpen = $state(false);
 
 	const navLinks = [
-		{ label: 'Collections', href: '#pricing' },
+		{ label: 'Collections', href: '#showcase' },
 		{ label: 'Craftsmanship', href: '#features' },
 		{ label: 'Heritage', href: '#process' },
 		{ label: 'Contact', href: '#footer' }
@@ -26,14 +28,19 @@
 				</a>
 			{/each}
 			<div class="nav-actions-mobile">
+				<div class="mobile-toggle-row">
+					<span class="mobile-toggle-label">Theme</span>
+					<ThemeToggle />
+				</div>
 				<a href="#" class="sign-in" onclick={closeMenu}>Sign In</a>
-				<a href="#pricing" class="btn-primary" onclick={closeMenu}>Book Now</a>
+				<a href="#appointment" class="btn-primary" onclick={closeMenu}>Book Now</a>
 			</div>
 		</nav>
 
 		<div class="header-actions">
+			<ThemeToggle />
 			<a href="#" class="sign-in">Sign In</a>
-			<a href="#pricing" class="btn-primary">Book Now</a>
+			<a href="#appointment" class="btn-primary">Book Now</a>
 		</div>
 
 		<button
@@ -54,10 +61,11 @@
 		position: sticky;
 		top: 0;
 		z-index: 100;
-		background-color: rgba(254, 253, 253, 0.92);
+		background-color: var(--color-header-bg);
 		backdrop-filter: blur(12px);
 		-webkit-backdrop-filter: blur(12px);
 		border-bottom: 1px solid var(--color-hairline);
+		transition: background-color 0.3s ease, border-color 0.3s ease;
 	}
 
 	.header-inner {
@@ -260,6 +268,20 @@
 			font-size: 1rem;
 			text-align: center;
 			padding: 0.5rem;
+		}
+
+		.mobile-toggle-row {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0.5rem 0;
+			border-bottom: 1px solid var(--color-hairline);
+		}
+
+		.mobile-toggle-label {
+			font-family: var(--font-display);
+			font-size: 1rem;
+			color: var(--color-secondary);
 		}
 	}
 </style>

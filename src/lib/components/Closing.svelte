@@ -6,7 +6,7 @@
 	<div class="closing-inner container">
 		<h2 class="closing-heading">Find your signature timepiece</h2>
 		<div class="closing-actions">
-			<a href="#pricing" class="btn-primary">Book an Appointment</a>
+			<a href="#appointment" class="btn-primary">Book an Appointment</a>
 			<a href="#footer" class="btn-secondary">Book a Consultation</a>
 		</div>
 	</div>
@@ -14,7 +14,7 @@
 
 <style>
 	.closing {
-		background: radial-gradient(ellipse at 50% 50%, #1e1d1e 0%, var(--color-inverse-ground) 70%);
+		background: radial-gradient(ellipse at 50% 50%, #1e1d1e 0%, #0d0c0e 70%);
 		padding-top: var(--band-top);
 		padding-bottom: var(--band-bottom);
 		overflow: hidden;
@@ -77,8 +77,8 @@
 		font-size: 0.9375rem;
 		font-weight: 500;
 		padding: 0.8125rem 2rem;
-		background-color: var(--color-inverse-text);
-		color: var(--color-inverse-ground);
+		background-color: #fcfcfd;
+		color: #0b0b0c;
 		border-radius: var(--control-corner);
 		text-decoration: none;
 		transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -86,7 +86,7 @@
 
 	.btn-primary:hover {
 		transform: scale(1.03);
-		box-shadow: 0 0 32px rgba(252, 252, 253, 0.18);
+		box-shadow: 0 0 32px rgba(252, 252, 253, 0.25);
 	}
 
 	.btn-secondary {
@@ -98,15 +98,15 @@
 		font-weight: 500;
 		padding: 0.8125rem 2rem;
 		background: transparent;
-		color: var(--color-inverse-text);
-		border: 1px solid rgba(255, 255, 255, 0.2);
+		color: #fcfcfd;
+		border: 1px solid rgba(255, 255, 255, 0.25);
 		border-radius: var(--control-corner);
 		text-decoration: none;
 		transition: border-color 0.25s ease, transform 0.25s ease;
 	}
 
 	.btn-secondary:hover {
-		border-color: rgba(255, 255, 255, 0.45);
+		border-color: rgba(255, 255, 255, 0.6);
 		transform: scale(1.03);
 	}
 

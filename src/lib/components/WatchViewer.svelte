@@ -1,14 +1,22 @@
 <script>
 	import { Canvas } from '@threlte/core';
+	import { onMount } from 'svelte';
 	import WatchScene from './WatchScene.svelte';
 
-	let { url, interactive = false } = $props();
+	let { url, interactive = true, autoRotate = true, onLoaded = () => {} } = $props();
+	let mounted = $state(false);
+
+	onMount(() => {
+		mounted = true;
+	});
 </script>
 
 <div class="viewer">
-	<Canvas>
-		<WatchScene {url} {interactive} />
-	</Canvas>
+	{#if mounted}
+		<Canvas>
+			<WatchScene {url} {interactive} {autoRotate} {onLoaded} />
+		</Canvas>
+	{/if}
 </div>
 
 <style>

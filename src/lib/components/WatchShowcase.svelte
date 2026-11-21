@@ -56,7 +56,7 @@
 			actionHref="#appointment"
 		/>
 
-		<!-- Watch Switcher Tabs -->
+		<!-- Watch Switcher Tabs (Clean name without numbering) -->
 		<div class="watch-tabs" use:reveal={{ y: 20 }}>
 			{#each watches as watch, i}
 				<button
@@ -64,8 +64,7 @@
 					class:active={i === activeIndex}
 					onclick={() => selectWatch(i)}
 				>
-					<span class="tab-num">0{i + 1}</span>
-					<span class="tab-name">{watch.name.replace('VTECH ', '')}</span>
+					<span class="tab-name">{watch.name.replace('Vauthier ', '')}</span>
 				</button>
 			{/each}
 		</div>

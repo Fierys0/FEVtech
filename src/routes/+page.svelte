@@ -1,27 +1,42 @@
 <script>
-	import Header from '$lib/components/Header.svelte';
-	import Hero from '$lib/components/Hero.svelte';
-	import LogoCloud from '$lib/components/LogoCloud.svelte';
-	import Features from '$lib/components/Features.svelte';
-	import WatchShowcase from '$lib/components/WatchShowcase.svelte';
-	import Process from '$lib/components/Process.svelte';
-	import Testimonials from '$lib/components/Testimonials.svelte';
-	import Appointment from '$lib/components/Appointment.svelte';
-	import Faq from '$lib/components/FAQ.svelte';
-	import Closing from '$lib/components/Closing.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	// Komponen Semantik HTML
+	import Navigation from '$lib/components/Navigation.svelte';
+	import PortalHero from '$lib/components/PortalHero.svelte';
+	import StatementFold from '$lib/components/StatementFold.svelte';
+	import Watch3DSection from '$lib/components/Watch3DSection.svelte';
+	import ThrowableDeck from '$lib/components/ThrowableDeck.svelte';
+	import RosterAndDates from '$lib/components/RosterAndDates.svelte';
+	import CloseSection from '$lib/components/CloseSection.svelte';
 </script>
 
-<Header />
-<main>
-	<Hero />
-	<LogoCloud />
-	<Features />
-	<WatchShowcase />
-	<Process />
-	<Testimonials />
-	<Appointment />
-	<Faq />
-	<Closing />
+<svelte:head>
+	<title>VAUTHIER · Haute Horlogerie Suisse</title>
+	<meta
+		name="description"
+		content="VAUTHIER — Swiss Haute Horlogerie. Portal opening, 3D calibre laboratory, physical catalogue deck of sleeves, movement archive, and private salon viewings."
+	/>
+</svelte:head>
+
+<!-- Struktur Semantik HTML: <header> & <nav> -->
+<Navigation />
+
+<!-- Struktur Semantik HTML: <main> -->
+<main id="main-content">
+	<!-- Portal Hero: Opening stage dengan scroll uncover -->
+	<PortalHero />
+
+	<!-- Struktur Semantik HTML: <section> 01 Manifesto -->
+	<StatementFold />
+
+	<!-- Struktur Semantik HTML: <section> 02 (Interaktif 3D Calibre Stage) -->
+	<Watch3DSection />
+
+	<!-- Struktur Semantik HTML: <section> 03 (Throwable Card Deck) -->
+	<ThrowableDeck />
+
+	<!-- Struktur Semantik HTML: <section> 04 & 05 (Calibre Roster & Salon Itinerary) -->
+	<RosterAndDates />
+
+	<!-- Struktur Semantik HTML: <section> 06 & <footer> (Acquisition & Footer Strip) -->
+	<CloseSection />
 </main>
-<Footer />

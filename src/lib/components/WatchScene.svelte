@@ -4,10 +4,11 @@
 	import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 	import * as THREE from 'three';
 
-	let { url, interactive = false } = $props();
+	let { url, interactive = true, autoRotate = true, onLoaded = () => {} } = $props();
 
 	let loadedGroup = $state(null);
 	let loading = $state(true);
+	let controlsRef = $state(null);
 
 	const loader = new GLTFLoader();
 
@@ -42,6 +43,7 @@
 
 				loadedGroup = group;
 				loading = false;
+				onLoaded();
 			},
 			undefined,
 			(error) => {
@@ -56,24 +58,26 @@
 	});
 </script>
 
-<T.PerspectiveCamera makeDefault position={[0, 0.35, 2.6]} fov={35}>
+<T.PerspectiveCamera makeDefault position={[0, 0.35, 2.75]} fov={34}>
 	<OrbitControls
-		autoRotate
-		autoRotateSpeed={interactive ? 0.8 : 1.6}
+		bind:ref={controlsRef}
+		{autoRotate}
+		autoRotateSpeed={autoRotate ? 1.2 : 0}
 		enableZoom={interactive}
 		enableRotate={interactive}
 		enablePan={false}
 		maxDistance={4.5}
-		minDistance={0.8}
+		minDistance={1.1}
 	/>
 </T.PerspectiveCamera>
 
-<!-- Studio Lighting for Watches -->
-<T.AmbientLight intensity={1.5} />
-<T.DirectionalLight position={[5, 8, 5]} intensity={2.2} />
-<T.DirectionalLight position={[-4, 5, -3]} intensity={1.2} />
-<T.DirectionalLight position={[0, -2, 4]} intensity={0.6} />
-<T.PointLight position={[0, 2, 2.5]} intensity={0.8} color="#fff8ea" />
+<!-- Studio Horological Lighting -->
+<T.AmbientLight intensity={1.4} />
+<T.DirectionalLight position={[5, 8, 5]} intensity={2.4} />
+<T.DirectionalLight position={[-4, 5, -3]} intensity={1.4} />
+<T.DirectionalLight position={[0, -2, 4]} intensity={0.8} />
+<T.PointLight position={[0, 2.5, 3]} intensity={1.1} color="#fff8ee" />
+<T.PointLight position={[-2.5, -1, -2]} intensity={0.6} color="#e0f2fe" />
 
 {#if loadedGroup}
 	<T is={loadedGroup} />

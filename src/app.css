@@ -1,119 +1,55 @@
-/* ───────────────────────────────────────────
-   VTECH — Global Styles & Design Tokens
-   ─────────────────────────────────────────── */
+/* ─────────────────────────────────────────────────────────────
+   VTECH — Dark & Light Horological Label Design System
+   Ground: #0A0C0E (Dark) / #F9F8F6 (Light)
+   Accents: Amber #E8913C / Teal #2E6B72
+   Fonts: Syne (Headings) · Sora (Text & Labels)
+   ───────────────────────────────────────────────────────────── */
 
 :root {
-	/* Palette - Light Theme */
-	--color-ground: #fefdfd;
-	--color-alt-ground: #f5f4f4;
-	--color-surface: #ffffff;
-	--color-surface-hover: #f7f6f6;
-	--color-primary: #1a181a;
-	--color-secondary: #464646;
-	--color-muted: #6e6d6e;
-	--color-hairline: #e3e2e2;
-	--color-inverse-ground: #141314;
-	--color-inverse-text: #fcfcfd;
-	--color-accent: #1f7a3d;
-	--color-action-fill: #0b0b0c;
-	--color-action-label: #fcfcfd;
-	--color-gold: #c9a84c;
-	--color-gold-light: rgba(201, 168, 76, 0.12);
-	--color-header-bg: rgba(254, 253, 253, 0.92);
-	--color-card-bg: #ffffff;
-	--color-card-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.06);
-	--color-card-shadow-hover: 0 16px 48px -12px rgba(0, 0, 0, 0.1);
-	--stage-bg: radial-gradient(circle at 50% 45%, #ffffff 0%, #f0eeef 100%);
-	--modal-viewer-bg: radial-gradient(circle at 50% 50%, #ffffff 0%, #ebe9e9 100%);
-	--color-badge-bg: rgba(201, 168, 76, 0.12);
-	--color-badge-border: rgba(201, 168, 76, 0.25);
-	--overlay-bg: rgba(255, 255, 255, 0.9);
-	--appointment-card-bg: radial-gradient(ellipse at 50% 50%, #1e1d1e 0%, #100f10 70%);
-	--appointment-card-border: 1px solid rgba(255, 255, 255, 0.08);
-	--appointment-card-glow: 0 20px 60px -15px rgba(0, 0, 0, 0.35);
+	/* Palette - Default Dark Label Mode */
+	--color-ground: #0a0c0e;
+	--color-secondary-ground: #101317;
+	--color-surface: #14171c;
+	--color-ink: #ede7dc;
+	--color-secondary-ink: #9ea5a8;
+	--color-muted: #6c7378;
+	--color-amber: #e8913c;
+	--color-teal: #2e6b72;
+	--color-hairline: rgba(237, 231, 220, 0.13);
+	--color-hairline-subtle: rgba(237, 231, 220, 0.06);
+	--color-nav-bg: rgba(10, 12, 14, 0.8);
+	--color-modal-bg: rgba(10, 12, 14, 0.88);
+	--color-stage-bg: radial-gradient(circle at center, #15191f 0%, #0a0c0e 75%);
+	--veil-color: rgba(10, 12, 14, 0.94);
+	color-scheme: dark;
 
 	/* Typography */
-	--font-display: 'Host Grotesk', system-ui, sans-serif;
-	--font-body: 'EB Garamond', 'Georgia', serif;
-	--size-display: clamp(3.5rem, 5.14vw, 4.625rem);
-	--size-section-heading: clamp(2.25rem, 3.33vw, 3rem);
-	--size-body: 1rem;
-	--size-body-lg: 1.125rem;
-	--weight-display: 500;
+	--font-display: 'Syne', -apple-system, BlinkMacSystemFont, sans-serif;
+	--font-body: 'Sora', -apple-system, BlinkMacSystemFont, sans-serif;
 
 	/* Layout */
-	--container-width: 1376px;
-	--page-margin: 24px;
-	--band-top: clamp(4rem, 6.67vw, 6rem);
-	--band-bottom: clamp(3rem, 4.44vw, 4rem);
-	--surface-corner: 16px;
-	--control-corner: 9999px;
+	--container-width: 1360px;
+	--page-margin: 32px;
+	--nav-height: 58px;
+}
+
+:root[data-theme='light'] {
+	/* Palette - Swiss Editorial Light Mode */
+	--color-ground: #f9f8f6;
+	--color-secondary-ground: #eeeae2;
+	--color-surface: #e5e0d4;
+	--color-ink: #0e1013;
+	--color-secondary-ink: #4b5258;
+	--color-muted: #7e868d;
+	--color-amber: #c46816;
+	--color-teal: #1a565e;
+	--color-hairline: rgba(14, 16, 19, 0.12);
+	--color-hairline-subtle: rgba(14, 16, 19, 0.06);
+	--color-nav-bg: rgba(249, 248, 246, 0.84);
+	--color-modal-bg: rgba(249, 248, 246, 0.92);
+	--color-stage-bg: radial-gradient(circle at center, #ffffff 0%, #ede8de 75%);
+	--veil-color: rgba(249, 248, 246, 0.94);
 	color-scheme: light;
-}
-
-:root[data-theme='dark'] {
-	/* Palette - Luxury Dark Theme */
-	--color-ground: #0a0a0b;
-	--color-alt-ground: #121214;
-	--color-surface: #18181b;
-	--color-surface-hover: #222226;
-	--color-primary: #fcfcfd;
-	--color-secondary: #a8a6ad;
-	--color-muted: #78767d;
-	--color-hairline: rgba(255, 255, 255, 0.1);
-	--color-inverse-ground: #fcfcfd;
-	--color-inverse-text: #0a0a0b;
-	--color-accent: #22c55e;
-	--color-action-fill: #fcfcfd;
-	--color-action-label: #0a0a0b;
-	--color-gold: #d8b24e;
-	--color-gold-light: rgba(216, 178, 78, 0.18);
-	--color-header-bg: rgba(10, 10, 11, 0.92);
-	--color-card-bg: #151518;
-	--color-card-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.45);
-	--color-card-shadow-hover: 0 16px 48px -12px rgba(0, 0, 0, 0.65);
-	--stage-bg: radial-gradient(circle at 50% 45%, #1a1a1e 0%, #0d0d0f 100%);
-	--modal-viewer-bg: radial-gradient(circle at 50% 50%, #1e1e23 0%, #0d0d0f 100%);
-	--color-badge-bg: rgba(216, 178, 78, 0.16);
-	--color-badge-border: rgba(216, 178, 78, 0.35);
-	--overlay-bg: rgba(24, 24, 27, 0.92);
-	--appointment-card-bg: radial-gradient(ellipse at 50% 50%, #1c1c21 0%, #0e0e11 70%);
-	--appointment-card-border: 1px solid rgba(216, 178, 78, 0.3);
-	--appointment-card-glow: 0 0 60px -15px rgba(216, 178, 78, 0.18);
-	color-scheme: dark;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root:not([data-theme='light']) {
-		--color-ground: #0a0a0b;
-		--color-alt-ground: #121214;
-		--color-surface: #18181b;
-		--color-surface-hover: #222226;
-		--color-primary: #fcfcfd;
-		--color-secondary: #a8a6ad;
-		--color-muted: #78767d;
-		--color-hairline: rgba(255, 255, 255, 0.1);
-		--color-inverse-ground: #fcfcfd;
-		--color-inverse-text: #0a0a0b;
-		--color-accent: #22c55e;
-		--color-action-fill: #fcfcfd;
-		--color-action-label: #0a0a0b;
-		--color-gold: #d8b24e;
-		--color-gold-light: rgba(216, 178, 78, 0.18);
-		--color-header-bg: rgba(10, 10, 11, 0.92);
-		--color-card-bg: #151518;
-		--color-card-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.45);
-		--color-card-shadow-hover: 0 16px 48px -12px rgba(0, 0, 0, 0.65);
-		--stage-bg: radial-gradient(circle at 50% 45%, #1a1a1e 0%, #0d0d0f 100%);
-		--modal-viewer-bg: radial-gradient(circle at 50% 50%, #1e1e23 0%, #0d0d0f 100%);
-		--color-badge-bg: rgba(216, 178, 78, 0.16);
-		--color-badge-border: rgba(216, 178, 78, 0.35);
-		--overlay-bg: rgba(24, 24, 27, 0.92);
-		--appointment-card-bg: radial-gradient(ellipse at 50% 50%, #1c1c21 0%, #0e0e11 70%);
-		--appointment-card-border: 1px solid rgba(216, 178, 78, 0.3);
-		--appointment-card-glow: 0 0 60px -15px rgba(216, 178, 78, 0.18);
-		color-scheme: dark;
-	}
 }
 
 /* ── Reset ── */
@@ -128,19 +64,21 @@
 
 html {
 	font-size: 16px;
+	background-color: var(--color-ground);
+	color: var(--color-ink);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	scroll-behavior: smooth;
-	background-color: var(--color-alt-ground);
 	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
 	font-family: var(--font-body);
-	font-size: var(--size-body);
-	line-height: 1.65;
-	color: var(--color-primary);
+	font-size: 14px;
+	line-height: 1.6;
+	color: var(--color-ink);
 	background-color: var(--color-ground);
+	overflow-x: hidden;
 	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -161,6 +99,7 @@ button {
 	border: none;
 	background: none;
 	font-size: inherit;
+	color: inherit;
 }
 
 ul,
@@ -171,38 +110,37 @@ ol {
 /* ── Focus ── */
 
 :focus-visible {
-	outline: 2px solid var(--color-gold);
+	outline: 1px solid var(--color-amber);
 	outline-offset: 3px;
-	border-radius: 4px;
 }
 
 /* ── Selection ── */
 
 ::selection {
-	background-color: var(--color-gold);
-	color: #0a0a0b;
+	background-color: var(--color-teal);
+	color: var(--color-ink);
 }
 
 /* ── Scrollbar ── */
 
 ::-webkit-scrollbar {
-	width: 8px;
+	width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-	background: var(--color-alt-ground);
+	background: var(--color-ground);
 }
 
 ::-webkit-scrollbar-thumb {
 	background: var(--color-hairline);
-	border-radius: 4px;
+	border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: var(--color-muted);
+	background: var(--color-amber);
 }
 
-/* ── Utility ── */
+/* ── Container Utility ── */
 
 .container {
 	max-width: var(--container-width);
@@ -210,7 +148,75 @@ ol {
 	padding-inline: var(--page-margin);
 }
 
-/* ── Reduced motion ── */
+/* ── Typography Roles ── */
+
+.display-title {
+	font-family: var(--font-display);
+	font-weight: 700;
+	letter-spacing: -0.025em;
+	color: var(--color-ink);
+}
+
+.label-caps {
+	font-family: var(--font-body);
+	font-size: 10.5px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+	color: var(--color-muted);
+}
+
+.accent-amber {
+	color: var(--color-amber);
+}
+
+.accent-teal {
+	color: var(--color-teal);
+}
+
+/* ── Pill Buttons ── */
+
+.btn-pill {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	padding: 0.625rem 1.35rem;
+	border-radius: 9999px;
+	font-family: var(--font-body);
+	font-size: 10.5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.13em;
+	transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.btn-pill-primary {
+	background: var(--color-ink);
+	color: var(--color-ground);
+	border: 1px solid var(--color-ink);
+}
+
+.btn-pill-primary:hover {
+	background: transparent;
+	color: var(--color-ink);
+	border-color: var(--color-ink);
+}
+
+.btn-pill-ghost {
+	background: transparent;
+	color: var(--color-ink);
+	border: 1px solid var(--color-hairline);
+}
+
+.btn-pill-ghost:hover {
+	border-color: var(--color-amber);
+	color: var(--color-amber);
+}
+
+/* ── Reduced Motion ── */
 
 @media (prefers-reduced-motion: reduce) {
 	*,
@@ -221,18 +227,4 @@ ol {
 		transition-duration: 0.01ms !important;
 		scroll-behavior: auto !important;
 	}
-}
-
-/* ── Grain texture overlay ── */
-
-body::before {
-	content: '';
-	position: fixed;
-	inset: 0;
-	pointer-events: none;
-	z-index: 10000;
-	opacity: 0.022;
-	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-	background-repeat: repeat;
-	background-size: 256px 256px;
 }

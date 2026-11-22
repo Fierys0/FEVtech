@@ -6,7 +6,6 @@
 
 	const navLinks = [
 		{ label: 'HOME', href: '/' },
-		{ label: 'CALIBRE ARCHIVE', href: '/calibres' },
 		{ label: '3D LABORATORY', href: '/#calibre-3d' },
 		{ label: 'CATALOGUE', href: '/#releases' },
 		{ label: 'SALON DATES', href: '/#dates' }
@@ -43,8 +42,8 @@
 					<!-- Night Mode / Light Mode Theme Toggle -->
 					<ThemeToggle />
 				</div>
-				<a href="/#dates" class="btn-pill btn-pill-primary" onclick={closeMenu}>
-					BOOK SALON
+				<a href="/book" class="btn-pill btn-pill-primary" onclick={closeMenu}>
+					BOOK APPOINTMENT
 				</a>
 			</div>
 		</nav>
@@ -54,8 +53,8 @@
 			<!-- Night Mode / Light Mode Theme Toggle -->
 			<ThemeToggle />
 			
-			<a href="/#dates" class="btn-pill btn-pill-primary">
-				BOOK SALON
+			<a href="/book" class="btn-pill btn-pill-primary">
+				BOOK APPOINTMENT
 			</a>
 			
 			<!-- Mobile Hamburger Toggle Button with DOM Event Handling -->

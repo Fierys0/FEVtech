@@ -42,12 +42,12 @@
 				>
 					Book Consultation
 				</button>
-				<!-- Navigasi Antar-Halaman menuju /calibres -->
+				<!-- Navigasi Antar-Halaman menuju /book -->
 				<a
-					href="/calibres"
+					href="/book"
 					class="btn-pill btn-pill-ghost"
 				>
-					Calibre Archive →
+					Book Appointment →
 				</a>
 			</div>
 		</div>
@@ -64,7 +64,7 @@
 			<div class="strip-center label-caps">
 				<a href="/" class="foot-link">HOME</a>
 				<span class="strip-sep">·</span>
-				<a href="/calibres" class="foot-link">CALIBRES ARCHIVE</a>
+				<a href="/book" class="foot-link">BOOK APPOINTMENT</a>
 				<span class="strip-sep">·</span>
 				<a href="/#calibre-3d" class="foot-link">3D LABORATORY</a>
 			</div>

@@ -151,7 +151,7 @@
 							<div class="col-action table-cell" role="cell">
 								<span class="mobile-label label-caps">ACCESS</span>
 								{#if item.isAvailable}
-									<a href="#close" class="access-link label-caps">
+									<a href="/book?city={encodeURIComponent(item.city)}" class="access-link label-caps">
 										{item.status} <span class="arrow">→</span>
 									</a>
 								{:else}
